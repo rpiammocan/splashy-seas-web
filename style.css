@@ -5,5 +5,12 @@ body { display:grid; place-items:center; padding:8px; overflow:hidden; }
 .shell { width:min(100%,1180px); max-height:98vh; display:flex; flex-direction:column; align-items:center; justify-content:center; }
 canvas { width:auto; height:auto; max-width:100%; max-height:calc(100dvh - 42px); aspect-ratio:16/9; display:block; border-radius:18px; background:#087bc0; box-shadow:0 18px 50px #0008; touch-action:none; user-select:none; -webkit-user-select:none; -webkit-touch-callout:none; }
 .help { margin:5px 0 0; text-align:center; color:#d8f7ff; font-size:14px; }
+.audio-gate { position:fixed; inset:0; z-index:20; display:grid; place-items:center; padding:22px; background:linear-gradient(#073b70ee,#03162cf5); }
+.audio-card { width:min(92vw,430px); padding:28px 24px 30px; text-align:center; border:4px solid #54d7ff; border-radius:26px; background:#063b70; box-shadow:0 18px 55px #0009; }
+.audio-icon { font-size:52px; line-height:1; }
+.audio-card h1 { margin:10px 0 8px; font-size:34px; letter-spacing:1px; color:#ff77b4; text-shadow:2px 2px #07315a; }
+.audio-card p { margin:0 0 20px; color:#e6fbff; font-size:17px; line-height:1.35; }
+.audio-card button { width:100%; min-height:58px; border:4px solid #e2ffcf; border-radius:18px; background:#26ae4d; color:white; font:700 18px system-ui,Arial,sans-serif; cursor:pointer; touch-action:manipulation; }
+.audio-card button:disabled { opacity:.75; }
 
-@media (pointer:coarse), (max-width:800px) { body{padding:2px;} .shell{width:100%;max-height:100dvh;} canvas{max-height:calc(100dvh - 30px);border-radius:10px;} .help{font-size:12px;margin-top:3px;} }
+@media (pointer:coarse), (max-width:800px) { body{padding:2px;} .shell{width:100%;max-height:100dvh;} canvas{max-height:calc(100dvh - 30px);border-radius:10px;} .help{font-size:12px;margin-top:3px;} .audio-card{padding:24px 18px 26px;} .audio-card button{min-height:64px;font-size:17px;} }
