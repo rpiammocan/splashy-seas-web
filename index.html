@@ -3,14 +3,23 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
-  <title>Splashy Seas Web V1.2</title>
+  <title>Splashy Seas Web V1.3</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <div id="audioGate" class="audio-gate" role="dialog" aria-label="Enable game sound">
+    <div class="audio-card">
+      <div class="audio-icon">🔊</div>
+      <h1>SPLASHY SEAS</h1>
+      <p id="audioStatus">Tap once to turn on music and game sounds.</p>
+      <button id="enableSound" type="button">TAP TO ENABLE SOUND</button>
+    </div>
+  </div>
   <main class="shell">
     <canvas id="game" width="1280" height="720" aria-label="Splashy Seas game"></canvas>
     <p class="help">Keyboard: ↑/↓ or W/S swim · Touchscreen: drag up/down · P pause · M sound · Esc/Home</p>
   </main>
+  <script src="audio-unlock.js"></script>
   <script src="game.js"></script>
 </body>
 </html>
