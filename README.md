@@ -1,14 +1,16 @@
-# Splashy Seas Web
+# 🌊 Splashy Seas Web
 
 **Version 1.4**
 
+## 🎮 PLAY SPLASHY SEAS
+
+### ➡️ **[CLICK HERE TO PLAY SPLASHY SEAS](https://rpiammocan.github.io/splashy-seas-web/)** ⬅️
+
+**Live game:** https://rpiammocan.github.io/splashy-seas-web/
+
+---
+
 Splashy Seas is a kid-friendly browser game where players swim through colorful ocean scenes, collect friendly sea animals for points, and reach the scene prize at the end.
-
-## Play
-
-Live site:
-
-`https://rpiammocan.github.io/splashy-seas-web/`
 
 ## Gameplay
 
